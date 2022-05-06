@@ -1,13 +1,7 @@
-# Paper Development Sample Plugin
+# NightmareMemo
+간단한 메모장 플러그인
+이름은 [비봉 나이트메어 다이어리](https://store.steampowered.com/app/924650/Hifuu_Nightmare_Diary__Violet_Detector/)에서 따옴
 
-## Environment
-
-- [Paper 1.18.2](https://papermc.io/downloads) dependencies
-- [Tap](https://github.com/monun/tap) dependencies
-- [Kommand](https://github.com/monun/kommand/) dependencies
-- [Server Script](https://github.com/monun/server-script) / Using [aroxu's GoLang version](https://github.com/aroxu/server-script/)
-
-### This Project Requires:
-
-- [JDK 17](https://docs.aws.amazon.com/corretto/latest/corretto-17-ug/downloads-list.html) (Corretto JDK is Recommended.)
-- libarchive-tools package (on Linux|Shell, for [./server-script.sh](./server-script.sh))
+## 의존하는 것들
+- [Paper 1.18.2](https://papermc.io/downloads)
+- [Kommand](https://github.com/monun/kommand/)
