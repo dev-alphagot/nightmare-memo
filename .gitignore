@@ -22,3 +22,24 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+*.lock
+*.bin
+.gradle/7.4.1/dependencies-accessors/gc.properties
+.gradle/7.4.1/gc.properties
+.gradle/buildOutputCleanup/cache.properties
+*.probe
+.gradle/vcs-1/gc.properties
+*.xml
+*.iml
+*.kotlin_module
+*.tab
+*.keystream
+*.len
+*.at
+*.tab_i
+
+build/*
+*.sh
+*.bat
+gradle/wrapper/gradle-wrapper.properties
+gradlew
