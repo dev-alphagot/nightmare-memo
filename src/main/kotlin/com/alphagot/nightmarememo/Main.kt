@@ -92,6 +92,8 @@ class Main : JavaPlugin(), Listener {
             ff
         )
 
+        dataFolder.mkdir()
+
         File(dataFolder, "memos").mkdir()
         server.offlinePlayers.forEach {
             File(dataFolder, "memos/${it.uniqueId}").mkdir()
